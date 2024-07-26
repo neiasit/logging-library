@@ -1,14 +1,14 @@
-package logging_lib
+package logging_library
 
 import (
-	core2 "github.com/neiasit/logging-lib/core"
+	"github.com/neiasit/logging-library/core"
 	"go.uber.org/fx"
 )
 
 var module = fx.Module(
 	"logger",
 	fx.Provide(
-		core2.LoadConfig,
-		core2.Logger,
+		core.LoadConfig,
+		core.Logger,
 	),
 )
