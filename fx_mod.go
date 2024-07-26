@@ -5,7 +5,7 @@ import (
 	"go.uber.org/fx"
 )
 
-var module = fx.Module(
+var Module = fx.Module(
 	"logger",
 	fx.Provide(
 		core.LoadConfig,
