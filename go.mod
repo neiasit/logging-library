@@ -1,6 +1,6 @@
 module github.com/neiasit/logging-library
 
-go 1.22
+go 1.22.5
 
 require (
 	github.com/ilyakaznacheev/cleanenv v1.5.0
